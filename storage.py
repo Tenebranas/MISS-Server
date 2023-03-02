@@ -6,7 +6,7 @@ import threading
 from process import processJob
 import time
 import traceback
-cred = credentials.Certificate("key.json")
+cred = credentials.Certificate("newkey.json")
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
